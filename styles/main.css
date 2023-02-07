@@ -8,8 +8,67 @@
     
     /* font-size */
     font-size: 62.5%;
+    --textsm:1.2rem;
+    --textmd:1.4rem;
+    --textlg:1.8rem;
+    --textxl:2.4rem;    
 
 }
 body{
     font-family: 'Roboto Slab', serif;
+}
+a{
+    text-decoration: none;
+}
+.hero{
+    max-width: 42rem;
+    height: 80vh;
+    background-image: url("../images/bg-small.png");
+    background-size: cover;
+}
+.navBar{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 5.4rem;
+    padding: 1rem 2rem;
+}
+.navBar__right{
+    display: flex;
+    gap: 1.8rem;
+    list-style: none;
+}
+.navBar__item a{
+    font-size: var(--textmd);
+    font-weight: 500;
+    color: var(--textColor);
+}
+.icon{
+    font-size: 2.4rem;
+    color: var(--textColor);
+    cursor: pointer;
+}
+.brandDescription{
+    margin-block-start: 6rem;
+    text-align: center;
+}
+.brandDescription__logo{
+    width: 8rem;
+}
+.brandDescription__name{
+    font-weight: bold;
+    font-size: var(--textxl);
+    color: var(--textColor);
+}
+.brandDescription__phrase{
+    color: var(--textColor);
+    font-weight: 500;
+    font-size: var(--textlg);
+}
+.primary__button{
+    padding: 1rem;
+    background-color: var(--primaryColor);
+    border: solid 0.1rem var(--secondaryColor);
+    font-weight: bold;
+    color: var(--secondaryColor);
 }
