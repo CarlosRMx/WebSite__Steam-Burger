@@ -1,0 +1,15 @@
+:root{
+    /* colors pallete */
+    --primaryColor:#E99708;
+    --secondaryColor:#030100;
+    --complementaryColor:#CA4715;
+    --auxiliaryColor:#A31506;
+    --textColor:white;
+    
+    /* font-size */
+    font-size: 62.5%;
+
+}
+body{
+    font-family: 'Roboto Slab', serif;
+}
