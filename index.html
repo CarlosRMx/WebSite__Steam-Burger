@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/e2a7d0a03e.js" crossorigin="anonymous"></script>
     <!-- queries -->
+    <link rel="stylesheet" href="./styles/normalize.css">
     <link rel="stylesheet" href="./styles/main.css">
     <title>Steamt-Hamburguesas</title>
 </head>
@@ -37,12 +38,56 @@
             </ul>
         </nav>
         <section class="brandDescription">
-            <img class="brandDescription__logo" src="./images/light-hamburger.svg" alt="">
+            <img class="brandDescription__logo" src="./images/light-hamburger.svg" alt="hero-image">
             <h1 class="brandDescription__name">Steam</h1>
             <p class="brandDescription__phrase">Hamburguesas artesanales</p>
             <button class="primary__button">Ver menu</button>
             
         </section>
+    </section>
+
+    <section class="mainPhrase">
+        <p class="mainPhrase__content">Hamburguesas de pura carne con el toque secreto</p>
+    </section>
+
+    <section class="menu">
+        <div class="menuTop">
+            <h3 class="menuTop__title">Menu</h3>
+            <div class="listIcons">
+                <span class="listIcons__container">
+                    <img  class="listIcons__item" src="./images/hamburger.svg" alt="icon-hamburger">
+                </span>
+                <span class="listIcons__container">
+                    <img  class="listIcons__item" src="./images/fries.svg" alt="icon-fries">
+                </span>
+                <span class="listIcons__container">
+                    <img  class="listIcons__item" src="./images/soda.svg" alt="icon-soda">
+                </span>
+                <span class="listIcons__container">
+                    <img  class="listIcons__item listIcons__item--iceCream" src="./images/ice-cream.svg" alt="icon-Ice cream">
+                </span>
+            </div>
+        </div>
+        <section class="menuCards">
+            <article class="cardOrder">
+                <h2 class="cardOrder__nameBurger">Steam sencilla</h2>
+                <p class="cardOrder__ingredients">1lb de res con queso, verdura y pan</p>
+                <button class="cardOrder__button primary__button">$10.00</button>
+            </article>
+
+            <article class="cardOrder">
+                <h2 class="cardOrder__nameBurger">Steam doble</h2>
+                <p class="cardOrder__ingredients">1.5lb de res con queso, verdura y pan</p>
+                <button class="cardOrder__button primary__button">$10.00</button>
+            </article>
+
+            <article class="cardOrder">
+                <h2 class="cardOrder__nameBurger">Steam especial</h2>
+                <p class="cardOrder__ingredients">1lb de res tocineta, queso, verdura y pan</p>
+                <button class="cardOrder__button primary__button">$10.00</button>
+            </article>
+        </section>
+
     </section>
 </body>
 </html>

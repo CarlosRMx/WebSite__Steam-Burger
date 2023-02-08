@@ -34,7 +34,7 @@ a{
     padding: 1rem 2rem;
 }
 .navBar__right{
-    display: flex;
+    display: none;
     gap: 1.8rem;
     list-style: none;
 }
@@ -66,9 +66,79 @@ a{
     font-size: var(--textlg);
 }
 .primary__button{
-    padding: 1rem;
+    padding: 1rem 1.8rem;
     background-color: var(--primaryColor);
     border: solid 0.1rem var(--secondaryColor);
+    font-size: var(--textmd);
     font-weight: bold;
     color: var(--secondaryColor);
+}
+.mainPhrase{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 24vh;
+    background-color: var(--secondaryColor);
+}
+.mainPhrase__content{
+    text-align: center;
+    margin: 0;
+    font-size: var(--textlg);
+    font-weight: 500;
+    color: var(--primaryColor);
+}
+.menuTop__title{
+    margin-block-start: 6rem;
+    text-align: center;
+    font-size: var(--textxl);
+}
+.listIcons{
+    display: flex;
+    place-content: center;
+    gap: 1rem;
+}
+.listIcons__container{
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 5rem;
+    height: 5rem;
+    border: solid 2px var(--secondaryColor);
+    border-radius: 50%;
+}
+.listIcons__item{
+    width: 2.8rem;
+}
+.listIcons__item--iceCream{
+    width: 2rem;
+}
+.menuCards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    max-width: 42rem;
+    margin-block-start: 4rem;
+}
+.cardOrder{
+    width: 70%;
+    height: auto;
+    max-width: 24.2rem;
+    padding: 1rem;
+    text-align: center;
+    border: solid 2px var(--secondaryColor);
+}
+.cardOrder__nameBurger{
+    font-size: var(--textxl);
+    margin-block-end: 2.8rem;
+}
+.cardOrder__ingredients{
+    font-size: var(--textlg);
+}
+.cardOrder__button{
+    margin-block-start: 2rem;
+    margin-block-end: 2rem;
+    font-size: var(--textlg);
 }
