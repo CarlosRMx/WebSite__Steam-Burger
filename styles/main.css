@@ -88,6 +88,9 @@ a{
     font-weight: 500;
     color: var(--primaryColor);
 }
+.menu{
+    margin-block-end: 3.2rem;
+}
 .menuTop__title{
     margin-block-start: 6rem;
     text-align: center;
@@ -141,4 +144,71 @@ a{
     margin-block-start: 2rem;
     margin-block-end: 2rem;
     font-size: var(--textlg);
+}
+.menuBottom{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-block-start: 2.8rem;
+}
+.reto{
+    width: 100%;
+    height: auto;
+    padding: 1rem 0;
+    margin-block-start: 6rem;
+    margin-block-end: 4rem;
+    text-align: center;
+    background-color: var(--secondaryColor);
+}
+.reto__hashtag{
+    font-size: var(--textxl);
+    color: var(--primaryColor);
+}
+.reto__description{
+    font-size: var(--textlg);
+    color: var(--textColor);
+}
+.reto__socialMedia{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-block-end: 2rem;
+}
+.listIcons__container--media{
+    border: solid 2px var(--primaryColor);
+}
+.footer__header{
+    font-size: var(--textxl);
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footerCard{
+    width: 70%;
+    height: auto;
+    max-width: 24.2rem;
+    padding: 1rem;
+    margin-block-end: 2rem;
+    text-align: center;
+    border: solid 2px var(--secondaryColor);
+}
+.footer .footerCard__phone h2{
+    margin-block-end: 0;
+    font-weight: bold;
+    font-size: var(--textlg);
+}
+.footer .footerCard__phone p{
+    margin-block-start: 0;
+    font-size: var(--textmd);
+}
+.footer .footerCard__address h2{
+    margin-block-end: 0;
+    font-weight: bold;
+    font-size: var(--textlg);
+}
+.footer .footerCard__address p{
+    margin-block-start: 0;
+    font-size: var(--textmd);
 }
