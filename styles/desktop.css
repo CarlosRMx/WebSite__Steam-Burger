@@ -1,0 +1,17 @@
+.hero{
+    height: 100vh;
+}
+.mainPhrase__content{
+    font-size: var(--textxl);
+}
+.menuCards{
+    width: 900px;
+}
+.cardOrder{
+    width: 100%;
+    
+}
+.footerCard{
+    max-width: 90rem;
+    padding: 3rem;
+}
