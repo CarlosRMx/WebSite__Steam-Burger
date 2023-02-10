@@ -12,6 +12,7 @@
     --textmd:1.4rem;
     --textlg:1.8rem;
     --textxl:2.4rem;    
+    --textxxl:2.6rem;
 
 }
 body{
@@ -49,7 +50,10 @@ a{
     cursor: pointer;
 }
 .brandDescription{
-    margin-block-start: 6rem;
+    display: grid;
+    place-content: center;
+    height: 100%;
+    margin: 0;
     text-align: center;
 }
 .brandDescription__logo{
